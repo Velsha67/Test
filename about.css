@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f6fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+.team-container {
+    width: 95%;
+    max-width: 1400px;
+    margin: 40px auto;
+}
+
+/* Title */
+.team-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team-title h1 {
+    color: #080878;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.team-title p {
+    font-size: 20px;
+    color: #222;
+}
+
+/* Team cards */
+.team-collage {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Individual cards */
+.member-card {
+    width: 200px;
+    min-height: 500px;
+    background-color: #080878;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 5px 15px #aaa;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Member images */
+.member-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+/* Member names */
+.member-card h2 {
+    color: #ffff00;
+    font-size: 28px;
+    margin: 15px 0 8px;
+}
+
+/* Member roles */
+.member-card h3 {
+    font-size: 20px;
+    margin: 0 0 15px;
+}
+
+/* Description */
+.member-card p {
+    font-size: 18px;
+    line-height: 1.3;
+    margin: 0;
+}
+
+/* Back Home button container */
+.container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+/* Back Home button */
+.center a button {
+    background-color: #080878;
+    color: #ffff00;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 10px #aaa;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* Button hover */
+.center a button:hover {
+    background-color: #00005c;
+    transform: scale(1.05);
+}
